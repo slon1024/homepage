@@ -1,0 +1,4 @@
+User-agent: *
+
+Sitemap: http://vova.me/sitemap.xml
+Host: vova.me

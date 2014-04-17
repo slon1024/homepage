@@ -1,0 +1,36 @@
+html {
+  color: #fff;
+  font: Arial,Helvetica,sans-serif;
+  margin: 0;
+  padding: 0;
+  text-shadow: 2px 4px 10px #000;
+}
+
+body {
+  background: url('../img/me_80.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+h1 {
+  font-family: Arial;
+  font-size: 9em;
+  color: #fefefe;
+  text-align: center;
+  margin: 0.9em auto;
+
+}
+
+ul.like {
+  font-size: 5em;
+  list-style: none;
+  text-align: center;
+}
+
+footer {
+  bottom:0;
+  height: 25px;
+  font-size: 0.7em;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
