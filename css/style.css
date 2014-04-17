@@ -1,36 +1,14 @@
-html {
-  color: #fff;
-  font: Arial,Helvetica,sans-serif;
-  margin: 0;
-  padding: 0;
-  text-shadow: 2px 4px 10px #000;
-}
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outline:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
+section, article, header, footer, nav {  display: block; }
 
-body {
-  background: url('../img/me_80.jpg') no-repeat center center fixed;
-  background-size: cover;
-}
+html, body {  color: #fff;  position: relative;  font: Arial, Helvetica, sans-serif; text-shadow: 4px 4px 4px #000; }
+body { background: url('../img/me_80.jpg') no-repeat center center fixed; background-size: cover; }
 
-h1 {
-  font-family: Arial;
-  font-size: 9em;
-  color: #fefefe;
-  text-align: center;
-  margin: 0.9em auto;
+div.wrapperWindow { height: 100%; }
+  header { padding: 3em 0 0 3em;}
+  h1 { font: 9em Arial, Helvetica, sans-serif;  }
+  ul.like { font: 5em Arial, Helvetica, sans-serif; margin: 0.7em 0; }
 
-}
+footer {position:relative; color: #fff; font-size: 0.7em; height: 1.5em; text-align: center; width: 100%; margin-top:-1.5em; }
 
-ul.like {
-  font-size: 5em;
-  list-style: none;
-  text-align: center;
-}
 
-footer {
-  bottom:0;
-  height: 25px;
-  font-size: 0.7em;
-  position: absolute;
-  text-align: center;
-  width: 100%;
-}
