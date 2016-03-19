@@ -6,9 +6,15 @@ body { background: url('../img/me_80.jpg') no-repeat center center fixed; backgr
 
 div.wrapperWindow { height: 100%; }
   header { padding: 3em 0 0 3em;}
-  h1 { font: 9em Arial, Helvetica, sans-serif;  }
+  h1 { font: 7em Arial, Helvetica, sans-serif;}
+  span.text { padding: 2px 4px; opacity: 0.7; }
+  span.white_bg { background: #BCC0B5; }
+  span.green_bg { background: #4DABA0; }
+  span.yellow_bg { background: #DBD98A; }
+  span.red_bg { background: #D0617C; }
+  span.blue_bg { background: #3C84D9; }
+
   ul.like { font: 5em Arial, Helvetica, sans-serif; margin: 0.7em 0; }
+    ul.like li { margin: 0.1em 0;}
 
 footer {position:relative; color: #fff; font-size: 0.7em; height: 1.5em; text-align: center; width: 100%; margin-top:-1.5em; }
-
-
