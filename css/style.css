@@ -1,20 +1,21 @@
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outline:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
 section, article, header, footer, nav {  display: block; }
 
-html, body {  color: #fff;  position: relative;  font: Arial, Helvetica, sans-serif; text-shadow: 4px 4px 4px #000; }
-body { background: url('../img/me_80.jpg') no-repeat center center fixed; background-size: cover; }
+html, body {  height: 100%; color: #fff;  font-family: 'Titillium Web', sans-serif;  }
+body { background: url('../img/1.jpeg') no-repeat center center fixed; background-size: cover; }
 
-div.wrapperWindow { height: 100%; }
-  header { padding: 3em 0 0 3em;}
-  h1 { font: 7em Arial, Helvetica, sans-serif;}
-  span.text { padding: 2px 4px; opacity: 0.7; }
-  span.white_bg { background: #BCC0B5; }
-  span.green_bg { background: #4DABA0; }
-  span.yellow_bg { background: #DBD98A; }
-  span.red_bg { background: #D0617C; }
-  span.blue_bg { background: #3C84D9; }
+div.wrapperWindow { min-height: 100%; height: auto !important; height: 100%; margin: 0 auto -1.5em;}
+  header {margin: 0 2em;}
 
-  ul.like { font: 5em Arial, Helvetica, sans-serif; margin: 0.7em 0; }
-    ul.like li { margin: 0.1em 0;}
+  h1 { font: 5em 'Titillium Web', sans-serif; padding-top: 14%;}
+  h2 { font: 3em 'Titillium Web', sans-serif; margin-top: -0.8em;}
+  h3 { font: 2em 'Oswald', sans-serif; padding: 1em 0 1em;}
 
-footer {position:relative; color: #fff; font-size: 0.7em; height: 1.5em; text-align: center; width: 100%; margin-top:-1.5em; }
+  section { margin: 0em 2em 0; }
+  section p { font: 1.2em 'Titillium Web', sans-serif; margin: -0.3em 0;}
+    section p a { color: #fff; }
+
+ul.links { padding: 4em 0 2em;}
+    ul.links li { display: inline; margin: 0 0.2em;}
+
+footer { color: #fff; font: 1em 'Titillium Web', sans-serif; text-align: center; height: 1.5em; }
