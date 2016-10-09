@@ -2,7 +2,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 section, article, header, footer, nav {  display: block; }
 
 html, body {  height: 100%; color: #fff;  font-family: 'Titillium Web', sans-serif;  }
-body { background: url('../img/1.jpeg') no-repeat center center fixed; background-size: cover; }
+body { background: #ccc url('../img/me.jpeg') no-repeat center center fixed; background-size: cover; }
 
 div.wrapperWindow { min-height: 100%; height: auto !important; height: 100%; margin: 0 auto -1.5em;}
   header {margin: 0 2em;}
