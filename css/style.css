@@ -15,18 +15,19 @@ section, article, header, footer, nav {  display: block; }
 }
 
 html, body {  height: 100%; color: #fff;  font-family: 'Titillium Web', sans-serif;  }
-body { background: #ccc url('../img/me3_70.jpg') no-repeat center center fixed; background-size: cover; }
+body { background: #ccc url('../img/me1.jpg') no-repeat center center fixed; background-size: cover; }
 
 div.wrapperWindow { min-height: 100%; height: auto !important; height: 100%; margin: 0 auto -1.5em;}
   header {margin: 0 2em;}
 
+  section.phrase { margin: 1em 2em 2em;}
   h1 { font: 5em 'Titillium Web', sans-serif; padding-top: 14%; text-transform: uppercase;}
   h2 { font: 3em 'Titillium Web', sans-serif; margin-top: -0.8em; text-transform: uppercase;}
-  h3 { font: 2em 'Oswald', sans-serif; padding: 1em 0 1em;}
+  h3 { font: 2em 'Oswald', sans-serif;  }
 
-  section {  margin: 0 2em 0; }
-  section p { font: 1.2em 'Titillium Web', sans-serif; margin: -0.3em 0;}
-    section p a { color: #fff; }
+  section.details {  margin: 0 2em 0; }
+  section.details p { font: 1.2em 'Titillium Web', sans-serif; margin: -0.3em 0;}
+    section.details p a { color: #fff; }
 
 ul.links { padding: 4em 0 2em;}
     ul.links li { display: inline; margin: 0 0.2em;}
